@@ -55,7 +55,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto",
 )
-selected_tab = st.sidebar.selectbox("Select Tab", ["Dashboard", "Economic Indicators", "Forecasting"])
+selected_tab = st.sidebar.selectbox("Select Tab", ["Dashboard", "Economi Indicators", "Forecasting"])
 
 if selected_tab == "Dashboard":
     st.title('Simply because, making money should be free.')

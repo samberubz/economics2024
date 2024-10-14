@@ -139,7 +139,7 @@ if selected_tab == "Dashboard":
         st.write("**Shares Outstanding**")
         st.write(f"{format_int_with_commas(ticker_info['sharesOutstanding'])} shares")
 
-elif selected_tab == "Economic Indicators":
+elif selected_tab == "Economi Indicators":
     # Credentials
     api_key = 'f2a895690fcdf11a9998ef3a21e3620f'
     fred = Fred(api_key=api_key)
